@@ -1,5 +1,12 @@
 # Git Walkthrough for COP3502
 
+## Table of Contents
+1. [Installing Git on Your Computer](#installing-git)
+2. [Creating a GitHub Account](#creating-github-account)
+3. [Creating your first commit](#first-commit)
+4. [Updating with second commit](#second-commit)
+5. [Adding Contributor to your repo](#adding-contributors)
+
 ## Installing Git
 ### On Mac
 Install Git Bash binary or Install via Homebrew
@@ -29,9 +36,10 @@ Install Git Bash binary or Install via Homebrew
 ## First Commit
 ### On Mac - Opening a Terminal Session
 1. Navigate to the folder of the files you want to add in Finder
-> 
+**Make sure to navigate to the folder and not just search it**, if you do not know how get to your folder, go to [here](#navigate-to-folder-mac)
 2. Select the folder, then click on the settings icon for the folder
-> If you do not see this option, you might need to add this option in System Preferences, follow that [here](#add-new-terminal-service)
+3. Click on the option "New Terminal at Folder"
+
 
 ### On Windows - Opening a Terminal Session
 1. Open folder of file you want to add to repo in File Explorer
@@ -82,8 +90,10 @@ If this is the first time using git or you are having trouble with author, pleas
 2. Set your email via `git config --global user.email "[YOUREMAIL@DOMAIN]`
 3. Rerun the commit command to make sure your changes were commited
 
-### Add New Terminal Service
-This will add the service option for New Terminal Window on Mac.
+### Navigate to Folder Mac
+If you are using IntelliJ, these instructions should lead you to the correct folder. Otherwise, it should give you a good idea of where to start.
 
-1. System Preferences -> Keyboard -> Shortcuts Tab -> Services
-2. Check New Terminal at Folder *AND* New Terminal Tab at Folder
+1. Open Finder
+2. On the Taskbar at the top of your computer, select Go -> Home
+3. Open the folder IdeaProjects in Finder
+4. Navigate to the folder you are using
