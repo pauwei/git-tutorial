@@ -3,13 +3,13 @@
 ## Installing Git
 ### On Mac
 Install Git Bash binary or Install via Homebrew
->Homebrew will require installing homebrew first
+> Homebrew will require installing homebrew first
 
 *If using Git Binary Installer*
 1. Download the executable via [sourceforge.net](https://sourceforge.net/projects/git-osx-installer/)
 2. Run the installer with default configurations
->If you run into download untrusted issue, please go change system settings as follows:
->System Preferences -> Security and Privacy -> General Tab -> Select Lock icon on left bottom corner -> Allow app from unidentified developer
+> If you run into download untrusted issue, please go change system settings as follows:
+> System Preferences -> Security and Privacy -> General Tab -> Select Lock icon on left bottom corner -> Allow app from unidentified developer
 
 *If using Xcode*
 1. Install Homebrew by running the following command in the terminal:
@@ -28,9 +28,10 @@ Install Git Bash binary or Install via Homebrew
 
 ## First Commit
 ### On Mac - Opening a Terminal Session
-1. Navigate to the folder where you want to create your repo
-2. On the command tab, go to Finder -> Services -> New Terminal at Folder
->If you do not see this option, you might need to add this option in System Preferences, follow that [here](#add-new-terminal-service)
+1. Navigate to the folder of the files you want to add in Finder
+> 
+2. Select the folder, then click on the settings icon for the folder
+> If you do not see this option, you might need to add this option in System Preferences, follow that [here](#add-new-terminal-service)
 
 ### On Windows - Opening a Terminal Session
 1. Open folder of file you want to add to repo in File Explorer
@@ -40,27 +41,33 @@ Install Git Bash binary or Install via Homebrew
 1. Initialize a local git repository via `git init`
 2. Add the files that you want either via `git add [FILENAME]` or `git add *`
 3. Commit the files with message about your commit `git commit -m "[YOUR MESSAGE]"`
->[OPTIONAL] The industry standard is to change branch from master to main here
->If you choose this, an additional command of `git branch -M main`
+> \*OPTIONAL\* The industry standard is to change branch from master to main here
+> If you choose this, an additional command of `git branch -M main`
+
 **If you get author unknown error**, please follow the set author section [here](#setting-author)
-4. Link the remote repository with your local repository `git remote add origin [HTTP Link]`
->HTTP Link can be copied on your Code Tab on Github either under Green Code Button or just as the link
+4. Link the remote repository with your local repository `git remote add origin [HTTPS Link]`
+> HTTPS Link can be copied on your Code Tab on Github either under Green Code Button or just as the link
 5. Push your local repository to your remote repository `git push -u origin master`
->[OPTIONAL] If you use this option for main branch, the command is `git push -u origin main`
+> \*OPTIONAL\* If you use this option for main branch, the command is `git push -u origin main`
 6. Reload your page on GitHub to see the code you pushed
 
 
 ## Second Commit
+### Add a change to your file
+1. Either open up the file you wish to change in IntelliJ or some other editor
+2. Make a slight change to show that the file has been changed
+
 ### Running git for the second time
 1. Open Git Bash on Windows or Terminal on Mac if you do not already have it open
 2. Add the files that you have changed via `git add [FILENAME]` or `git add *`
 3. Commit the files with a message via `git commit -m "[YOUR MESSAGE]"`
 4. Push your files onto the remote repository `git push`
+5. Reload your page on GitHub to make sure that the new changes have been updated
 
 ## Adding contributors
 
 1. Go to `Settings` Tab within your repository
->This should be on the same row as Code Tab
+> This should be on the same row as Code Tab
 2. Got to `Manage Access`
 3. Under `Manage Access`, click on `Add people`
 4. Add the Github username of your TA
