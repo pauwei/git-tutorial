@@ -1,4 +1,4 @@
-# GIT Tutorial for COP3502
+# Git Walkthrough for COP3502
 
 ## Installing Git
 ### On Mac
@@ -6,15 +6,15 @@ Install Git Bash binary or Install via Homebrew
 >Homebrew will require installing homebrew first
 
 *If using Git Binary Installer*
-2. Download the executable via [sourceforge.net](https://sourceforge.net/projects/git-osx-installer/)
-3. Run the installer with default configurations
+1. Download the executable via [sourceforge.net](https://sourceforge.net/projects/git-osx-installer/)
+2. Run the installer with default configurations
 >If you run into download untrusted issue, please go change system settings as follows:
 >System Preferences -> Security and Privacy -> General Tab -> Select Lock icon on left bottom corner -> Allow app from unidentified developer
 
 *If using Xcode*
-2. Install Homebrew by running the following command in the terminal:
+1. Install Homebrew by running the following command in the terminal:
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-3. Install git via Homebrew by running `brew install git`
+2. Install git via Homebrew by running `brew install git`
 
 
 
