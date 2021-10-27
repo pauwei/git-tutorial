@@ -51,11 +51,11 @@ If using Homebrew
 1. Go to [github.com](https://github.com/) homepage if you are not there.
 2. Click the green button "New" to create a new repository
 3. Name your repo to something specific to the code you will be uploading
-4. Choose private option if required by assignment
+4. Choose private option
 5. Do not check any additional boxes
 > If you check any additional boxes, how you initialize repository may be different
 
-Your repo screen should like the following: <br/>
+Your repo screen should like the following: <br/><br/>
 ![Initial Repo Screen](https://github.com/pauwei/git-tutorial/blob/master/images/NewRepo.JPG)
 
 ## First Commit
