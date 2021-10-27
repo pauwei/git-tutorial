@@ -56,7 +56,7 @@ If using Homebrew
 > If you check any additional boxes, how you initialize repository may be different
 
 Your repo screen should like the following: <br/>
-![Initial Repo Screen](/images/NewRepo.jpg)
+![Initial Repo Screen](https://github.com/pauwei/git-tutorial/blob/master/images/NewRepo.JPG)
 
 ## First Commit
 
