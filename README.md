@@ -2,7 +2,7 @@
 
 ## Installing Git
 ### On Mac
-1. Install Git Bash binary or Install via Homebrew
+Install Git Bash binary or Install via Homebrew
 >Homebrew will require installing homebrew first
 
 *If using Git Binary Installer*
@@ -74,3 +74,7 @@ If this is the first time using git or you are having trouble with author, pleas
 2. Set your email via `git config --global user.email "[YOUREMAIL@DOMAIN]`
 
 ### Add New Terminal Service
+This will add the service option for New Terminal Window on Mac.
+
+1. System Preferences -> Keyboard -> Shortcuts Tab -> Services
+2. Check New Terminal at Folder *AND* New Terminal Tab at Folder
