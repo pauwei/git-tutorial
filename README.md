@@ -8,7 +8,7 @@ Install Git Bash binary or Install via Homebrew
 *If using Git Binary Installer*
 1. Download the executable via [sourceforge.net](https://sourceforge.net/projects/git-osx-installer/)
 2. Run the installer with default configurations
-> If you run into download untrusted issue, please go change system settings as follows:
+> If you run into download untrusted issue, please go change system settings as follows: <br/>
 > System Preferences -> Security and Privacy -> General Tab -> Select Lock icon on left bottom corner -> Allow app from unidentified developer
 
 *If using Xcode*
