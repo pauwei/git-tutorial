@@ -2,10 +2,25 @@
 
 ## Installing Git
 ### On Mac
-1. Install Git Bash binary
+1. Install Git Bash binary or Install via Homebrew
+>Homebrew will require installing homebrew first
+
+*If using Git Binary Installer*
+2. Download the executable via [sourceforge.net](https://sourceforge.net/projects/git-osx-installer/)
+3. Run the installer with default configurations
+>If you run into download untrusted issue, please go change system settings as follows:
+>System Preferences -> Security and Privacy -> General Tab -> Select Lock icon on left bottom corner -> Allow app from unidentified developer
+
+*If using Xcode*
+2. Install Homebrew by running the following command in the terminal:
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+3. Install git via Homebrew by running `brew install git`
+
+
 
 ### On Windows
-1. Install Git Bash via [git-scm](https://git-scm.com/download/win)
+1. Install Git Bash via [git-scm.com](https://git-scm.com/download/win)
+2. Download the correct executable for your system
 2. Run the executable
 3. Default configurations are fine
 
@@ -13,6 +28,9 @@
 
 ## First Commit
 ### On Mac
+1. Navigate to the folder where you want to create your repo
+2. On the command tab, go to Finder -> Services -> New Terminal at Folder
+>If you do not see this option, you might need to add this option in System Preferences, follow that [here](### Add New Terminal Service)
 
 ### On Windows
 1. Open folder of file you want to add to repo in File Explorer
@@ -22,7 +40,7 @@
 4. Commit the files with message about your commit `git commit -m "[YOUR MESSAGE]`
 >[OPTIONAL] The industry standard is to change branch from master to main here
 >If you choose this, an additional command of `git branch -M main`
->If you get author unknown error, please follow the set author section [here](## Setting author)
+>If you get author unknown error, please follow the set author section [here](### Setting author)
 5. Link the remote repository with your local repository `git remote add origin [HTTP Link]
 >HTTP Link can be copied on your Code Tab on Github either under Green Code Button or just as the link
 6. Push your local repository to your remote repository `git push -u origin master`
@@ -47,8 +65,12 @@
 4. Add the Github username of your TA
 
 
-## Setting author
+## FAQ
+
+### Setting author
 If this is the first time using git or you are having trouble with author, please run the following commands with your name and email tied to the GitHub Account.
 
 1. Set your name via `git config --global user.name "[YOUR NAME]"`
 2. Set your email via `git config --global user.email "[YOUREMAIL@DOMAIN]`
+
+### Add New Terminal Service
