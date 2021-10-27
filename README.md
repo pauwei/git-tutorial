@@ -30,7 +30,7 @@
 ### On Mac
 1. Navigate to the folder where you want to create your repo
 2. On the command tab, go to Finder -> Services -> New Terminal at Folder
->If you do not see this option, you might need to add this option in System Preferences, follow that [here](### Add New Terminal Service)
+>If you do not see this option, you might need to add this option in System Preferences, follow that [here](#add-new-terminal-service)
 
 ### On Windows
 1. Open folder of file you want to add to repo in File Explorer
@@ -40,8 +40,8 @@
 4. Commit the files with message about your commit `git commit -m "[YOUR MESSAGE]`
 >[OPTIONAL] The industry standard is to change branch from master to main here
 >If you choose this, an additional command of `git branch -M main`
->If you get author unknown error, please follow the set author section [here](### Setting author)
-5. Link the remote repository with your local repository `git remote add origin [HTTP Link]
+>If you get author unknown error, please follow the set author section [here](#setting-author)
+5. Link the remote repository with your local repository `git remote add origin [HTTP Link]`
 >HTTP Link can be copied on your Code Tab on Github either under Green Code Button or just as the link
 6. Push your local repository to your remote repository `git push -u origin master`
 >[OPTIONAL] If you use this option for main branch, the command is `git push -u origin main`
